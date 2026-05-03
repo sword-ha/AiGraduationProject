@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#chat-container {
+    width: 500px;
+    max-width: 90%;
+    background: rgba(255,255,255,0.95);
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    padding: 20px;
+    animation: popIn 0.8s ease-out;
+}
+
+#chatbox {
+    height: 400px;
+    overflow-y: scroll;
+    border: 2px solid #ff6a00;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.user { color: #007bff; margin: 5px 0; animation: slideIn 0.5s ease-out; }
+.bot { color: #28a745; margin: 5px 0; animation: slideIn 0.5s ease-out; }
+
+#userInput {
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#sendBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(45deg,#ff6a00,#ee0979);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#sendBtn:hover {
+    transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes slideIn { from {opacity:0; transform: translateY(10px);} to {opacity:1; transform: translateY(0);} }
+@keyframes popIn { from {opacity:0; transform: scale(0.8);} to {opacity:1; transform: scale(1);} }

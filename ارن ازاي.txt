@@ -1,0 +1,7 @@
+Set-Location "c:\Users\eidh7\Desktop\grad\api_services\id_verification"
+uvicorn main:app --port 8001
+ده لو ل أي سيرفيس لوحدها زي اول واحد مثلا 
+
+انما لوكله مع بعض بدخل علي الباورشيل او التيرمينال بتاع البروجيكت علي فيجوال ستوديو كود واكتب كده
+
+ Set-Location "c:\Users\eidh7\Desktop\grad" ; .\start_all.ps1

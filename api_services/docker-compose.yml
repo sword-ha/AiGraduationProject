@@ -1,0 +1,88 @@
+version: "3.9"
+
+services:
+  # ─────────────────────────────
+  # 1. Egyptian ID Verification
+  # ─────────────────────────────
+  id_verification:
+    build:
+      context: .
+      dockerfile: id_verification/Dockerfile
+    image: id_verification:latest
+    container_name: id_verification
+    ports:
+      - "8001:8001"
+    environment:
+      - OCR_PROJECT_DIR=/ocr_project
+      - CORS_ORIGINS=*
+    volumes:
+      - ../OCR_Egyptian_ID-main:/ocr_project:ro
+    restart: unless-stopped
+
+  # ─────────────────────────────
+  # 2. Personality Analysis
+  # ─────────────────────────────
+  personality:
+    build:
+      context: personality
+      dockerfile: Dockerfile
+    image: personality:latest
+    container_name: personality
+    ports:
+      - "8002:8002"
+    environment:
+      - CORS_ORIGINS=*
+    restart: unless-stopped
+
+  # ─────────────────────────────
+  # 3. CV Generator
+  # ─────────────────────────────
+  cv_generator:
+    build:
+      context: .
+      dockerfile: cv_generator/Dockerfile
+    image: cv_generator:latest
+    container_name: cv_generator
+    ports:
+      - "8003:8003"
+    environment:
+      - CV_GENERATOR_DIR=/cv_generator
+      - CV_OUTPUT_DIR=/app/output
+      - CORS_ORIGINS=*
+    volumes:
+      - ../cv_generator:/cv_generator:ro
+      - cv_output:/app/output
+    restart: unless-stopped
+
+  # ─────────────────────────────
+  # 4. Chatbot
+  # ─────────────────────────────
+  chatbot:
+    build:
+      context: chatbot
+      dockerfile: Dockerfile
+    image: chatbot:latest
+    container_name: chatbot
+    ports:
+      - "8004:8004"
+    env_file:
+      - chatbot/.env
+    restart: unless-stopped
+
+  # ─────────────────────────────
+  # 5. Post Generator
+  # ─────────────────────────────
+  post_generator:
+    build:
+      context: post_generator
+      dockerfile: Dockerfile
+    image: post_generator:latest
+    container_name: post_generator
+    ports:
+      - "8005:8005"
+    env_file:
+      - post_generator/.env
+    restart: unless-stopped
+
+volumes:
+  cv_output:
