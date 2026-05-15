@@ -1,4 +1,4 @@
-$base = "c:\Users\eidh7\Desktop\grad\api_services"
+$base = "c:\Users\eidh7\Desktop\grad - Copy\api_services"
 
 $services = @(
     @{ name = "ID Verification  (8001)"; dir = "$base\id_verification";  port = 8001 },
