@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic[email]==2.9.2
+python-dotenv==1.0.1
+# ID Verification
+ultralytics==8.3.0
+easyocr==1.7.1
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+# CV Generator
+reportlab==4.2.5
