@@ -1,0 +1,3 @@
+# Allow model files in this folder (override root .gitignore)
+!*.pt
+!*.pth

@@ -1,5 +1,4 @@
-# Build context must be the repo root:
-#   docker build -f api_services/unified_api/Dockerfile .
+# Build context: api_services/unified_api/ (self-contained)
 
 FROM python:3.11-slim
 
@@ -11,21 +10,15 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies first (layer cache)
-COPY api_services/unified_api/requirements.txt ./requirements.txt
+COPY requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the unified API app
-COPY api_services/unified_api/ ./
-
-# Copy the OCR project (YOLO models + utils.py)
-COPY OCR_Egyptian_ID-main/ /ocr_project/
-
-# Copy the CV generator pipeline (src/ package)
-COPY cv_generator/ /cv_pipeline/
+# Copy the entire unified API (includes ocr_project/ and cv_pipeline/)
+COPY . .
 
 # Environment
-ENV OCR_PROJECT_DIR=/ocr_project
-ENV CV_GENERATOR_DIR=/cv_pipeline
+ENV OCR_PROJECT_DIR=/app/ocr_project
+ENV CV_GENERATOR_DIR=/app/cv_pipeline
 ENV CV_OUTPUT_DIR=/app/output
 ENV CORS_ORIGINS=*
 

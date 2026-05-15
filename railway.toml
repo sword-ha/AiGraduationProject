@@ -1,5 +1,5 @@
 [build]
-dockerfilePath = "Dockerfile"
+dockerfilePath = "api_services/unified_api/Dockerfile"
 
 [deploy]
 startCommand = "uvicorn main:app --host 0.0.0.0 --port $PORT"

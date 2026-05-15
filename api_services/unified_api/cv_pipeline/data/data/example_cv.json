@@ -1,0 +1,104 @@
+{
+  "personal": {
+    "name":     "Jane Smith",
+    "email":    "jane.smith@example.com",
+    "phone":    "+1 (555) 234-5678",
+    "linkedin": "linkedin.com/in/janesmith",
+    "github":   "github.com/janesmith",
+    "location": "San Francisco, CA",
+    "website":  "janesmith.dev",
+    "summary":  "Results-driven Software Engineer with 5+ years of experience designing and deploying scalable backend services using Python, Go, and AWS. Passionate about clean architecture, test-driven development, and mentoring junior engineers."
+  },
+  "education": [
+    {
+      "institution":  "University of California, Berkeley",
+      "degree":       "Bachelor of Science",
+      "field":        "Computer Science",
+      "start_date":   "Aug 2015",
+      "end_date":     "May 2019",
+      "gpa":          "3.85",
+      "achievements": [
+        "Dean's List — 6 consecutive semesters",
+        "Winner, ACM ICPC Regional 2018",
+        "Undergraduate Research Assistant — Distributed Systems Lab"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company":    "Stripe",
+      "title":      "Senior Software Engineer",
+      "start_date": "Jun 2022",
+      "end_date":   "Present",
+      "location":   "San Francisco, CA",
+      "bullets": [
+        "Architected a real-time fraud detection microservice handling 2M+ transactions/day using Python and Apache Kafka, reducing false positives by 38%.",
+        "Led a team of 6 engineers to migrate legacy monolith to Kubernetes-based microservices, cutting deployment time from 45 minutes to under 4 minutes.",
+        "Designed and implemented a distributed rate-limiting system that reduced API abuse incidents by 92%.",
+        "Mentored 4 junior engineers through bi-weekly 1:1s and structured code-review sessions, improving team PR merge quality by 30%."
+      ]
+    },
+    {
+      "company":    "Airbnb",
+      "title":      "Software Engineer II",
+      "start_date": "Aug 2019",
+      "end_date":   "May 2022",
+      "location":   "San Francisco, CA",
+      "bullets": [
+        "Developed high-throughput data pipeline ingesting 500K+ booking events/hour using Apache Spark and AWS S3, replacing a brittle ETL process.",
+        "Optimised PostgreSQL query performance by 65% through strategic index design and query plan analysis.",
+        "Implemented A/B testing framework used by 12 product teams, enabling data-driven feature rollouts.",
+        "Reduced on-call incident volume by 40% by adding observability dashboards in Grafana and Datadog."
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [
+      "Python", "Go", "JavaScript", "TypeScript", "SQL",
+      "FastAPI", "Django", "Node.js", "REST API", "GraphQL",
+      "Microservices", "Docker", "Kubernetes", "AWS", "PostgreSQL",
+      "Redis", "Apache Kafka", "Apache Spark"
+    ],
+    "soft": [
+      "Technical Leadership", "Mentoring", "Cross-functional Collaboration",
+      "Problem-solving", "Communication"
+    ],
+    "tools": [
+      "Git", "GitHub Actions", "Terraform", "Datadog", "Grafana",
+      "Jira", "Confluence", "VS Code"
+    ]
+  },
+  "projects": [
+    {
+      "name":        "OpenCacheDB",
+      "description": "Built and open-sourced a lightweight in-memory key-value store written in Go with LRU eviction and persistence via write-ahead logging. Achieved 120K ops/sec in benchmarks.",
+      "technologies": ["Go", "Benchmarking", "WAL", "Open Source"],
+      "link":         "github.com/janesmith/opencachedb"
+    },
+    {
+      "name":        "CV Optimizer CLI",
+      "description": "Developed this ATS CV optimisation tool used by 500+ job seekers. Implements rule-based scoring, TF-IDF keyword analysis, and PDF generation — no LLMs required.",
+      "technologies": ["Python", "ReportLab", "Tkinter", "TF-IDF"],
+      "link":         "github.com/janesmith/cv-optimizer"
+    }
+  ],
+  "certifications": [
+    {
+      "name":   "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "date":   "Mar 2023",
+      "id":     "AWS-SAA-C03-123456"
+    },
+    {
+      "name":   "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Cloud Native Computing Foundation",
+      "date":   "Nov 2022",
+      "id":     "CKA-2022-789012"
+    }
+  ],
+  "meta": {
+    "target_job_title": "Senior Software Engineer",
+    "version_label":    "example",
+    "exported_at":      "2026-04-28T00:00:00"
+  }
+}

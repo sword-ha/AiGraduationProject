@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 _CV_GEN_DIR = os.getenv(
     "CV_GENERATOR_DIR",
-    os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", "cv_generator"),
+    os.path.join(os.path.dirname(__file__), "..", "..", "cv_pipeline"),
 )
 sys.path.insert(0, os.path.abspath(_CV_GEN_DIR))
 

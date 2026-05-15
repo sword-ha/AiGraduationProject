@@ -1,0 +1,283 @@
+{
+  "job_titles": {
+    "software_engineer": {
+      "keywords": [
+        "Python", "Java", "JavaScript", "TypeScript", "C++", "C#", "Go", "Rust",
+        "SQL", "NoSQL", "MongoDB", "PostgreSQL", "MySQL", "Redis",
+        "REST API", "GraphQL", "Microservices", "Distributed Systems",
+        "Docker", "Kubernetes", "AWS", "Azure", "GCP", "CI/CD",
+        "Git", "GitHub", "GitLab", "Jenkins", "Terraform",
+        "Agile", "Scrum", "TDD", "BDD", "Code Review",
+        "OOP", "Data Structures", "Algorithms", "Design Patterns",
+        "Linux", "Bash", "Unit Testing", "Integration Testing",
+        "Performance Optimization", "Scalability", "High Availability"
+      ],
+      "action_verbs": [
+        "Developed", "Architected", "Engineered", "Implemented", "Optimized",
+        "Deployed", "Automated", "Refactored", "Designed", "Built",
+        "Maintained", "Debugged", "Integrated", "Migrated", "Scaled"
+      ]
+    },
+    "data_scientist": {
+      "keywords": [
+        "Python", "R", "Machine Learning", "Deep Learning", "NLP",
+        "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "XGBoost",
+        "Pandas", "NumPy", "SciPy", "Matplotlib", "Seaborn",
+        "SQL", "Spark", "Hadoop", "Databricks", "Airflow",
+        "Statistics", "Probability", "Linear Algebra",
+        "Feature Engineering", "Model Evaluation", "Cross-validation",
+        "A/B Testing", "Hypothesis Testing", "Regression", "Classification",
+        "Clustering", "Neural Networks", "Computer Vision", "Time Series",
+        "Jupyter", "MLflow", "Data Visualization", "Business Intelligence"
+      ],
+      "action_verbs": [
+        "Analyzed", "Modeled", "Predicted", "Identified", "Discovered",
+        "Trained", "Evaluated", "Deployed", "Visualized", "Optimized",
+        "Built", "Developed", "Implemented", "Researched", "Validated"
+      ]
+    },
+    "data_engineer": {
+      "keywords": [
+        "Python", "Scala", "Java", "SQL", "Spark", "Hadoop", "Kafka",
+        "Airflow", "dbt", "ETL", "ELT", "Data Pipeline", "Data Warehouse",
+        "Snowflake", "Redshift", "BigQuery", "Data Lake", "Delta Lake",
+        "AWS", "Azure", "GCP", "Databricks", "Docker", "Kubernetes",
+        "PostgreSQL", "MySQL", "MongoDB", "Cassandra", "Redis",
+        "CI/CD", "Git", "Terraform", "Data Modeling", "Schema Design",
+        "Performance Tuning", "Batch Processing", "Stream Processing"
+      ],
+      "action_verbs": [
+        "Built", "Designed", "Engineered", "Optimized", "Automated",
+        "Migrated", "Integrated", "Developed", "Maintained", "Implemented",
+        "Orchestrated", "Transformed", "Processed", "Deployed", "Scaled"
+      ]
+    },
+    "frontend_developer": {
+      "keywords": [
+        "JavaScript", "TypeScript", "React", "Vue.js", "Angular",
+        "HTML5", "CSS3", "SASS", "LESS", "Tailwind CSS", "Bootstrap",
+        "Next.js", "Nuxt.js", "Redux", "MobX", "Zustand",
+        "REST API", "GraphQL", "Webpack", "Vite", "Babel",
+        "Jest", "Cypress", "Playwright", "Testing Library",
+        "Responsive Design", "Web Accessibility", "WCAG", "SEO",
+        "Performance Optimization", "PWA", "Web Components",
+        "Git", "CI/CD", "Figma", "Adobe XD", "Agile"
+      ],
+      "action_verbs": [
+        "Developed", "Designed", "Built", "Implemented", "Optimized",
+        "Created", "Improved", "Integrated", "Refactored", "Enhanced",
+        "Delivered", "Collaborated", "Architected", "Maintained", "Launched"
+      ]
+    },
+    "backend_developer": {
+      "keywords": [
+        "Python", "Java", "Node.js", "Go", "Ruby", "PHP", "C#",
+        "Django", "FastAPI", "Flask", "Spring Boot", "Express.js", ".NET",
+        "REST API", "GraphQL", "gRPC", "Microservices", "Message Queue",
+        "RabbitMQ", "Kafka", "PostgreSQL", "MySQL", "MongoDB", "Redis",
+        "Docker", "Kubernetes", "AWS", "Azure", "CI/CD", "Linux",
+        "Authentication", "Authorization", "OAuth", "JWT",
+        "Performance Optimization", "Caching", "Database Design",
+        "Unit Testing", "Integration Testing", "TDD", "Git"
+      ],
+      "action_verbs": [
+        "Developed", "Architected", "Engineered", "Implemented", "Optimized",
+        "Designed", "Built", "Deployed", "Integrated", "Maintained",
+        "Refactored", "Scaled", "Secured", "Automated", "Debugged"
+      ]
+    },
+    "devops_engineer": {
+      "keywords": [
+        "Docker", "Kubernetes", "Helm", "Terraform", "Ansible", "Chef", "Puppet",
+        "AWS", "Azure", "GCP", "CI/CD", "Jenkins", "GitLab CI", "GitHub Actions",
+        "Linux", "Bash", "Python", "Go",
+        "Prometheus", "Grafana", "ELK Stack", "Datadog", "New Relic",
+        "Nginx", "Apache", "Load Balancing", "Service Mesh", "Istio",
+        "Security", "Compliance", "SIEM", "Vulnerability Management",
+        "Git", "Infrastructure as Code", "Site Reliability Engineering",
+        "High Availability", "Disaster Recovery", "Performance Tuning"
+      ],
+      "action_verbs": [
+        "Automated", "Deployed", "Managed", "Optimized", "Implemented",
+        "Configured", "Monitored", "Secured", "Maintained", "Built",
+        "Orchestrated", "Migrated", "Reduced", "Increased", "Streamlined"
+      ]
+    },
+    "product_manager": {
+      "keywords": [
+        "Product Strategy", "Roadmap", "Agile", "Scrum", "Kanban",
+        "User Research", "User Stories", "A/B Testing", "KPIs", "OKRs",
+        "Stakeholder Management", "Cross-functional", "Prioritization",
+        "Market Research", "Competitive Analysis", "Go-to-Market",
+        "Data-driven", "Analytics", "SQL", "Tableau", "Power BI",
+        "Figma", "Wireframing", "Prototyping", "Customer Discovery",
+        "Product Launch", "Feature Definition", "Acceptance Criteria",
+        "Revenue Growth", "Customer Retention", "NPS", "Churn"
+      ],
+      "action_verbs": [
+        "Led", "Defined", "Launched", "Drove", "Managed",
+        "Prioritized", "Collaborated", "Delivered", "Increased", "Reduced",
+        "Identified", "Analyzed", "Developed", "Aligned", "Facilitated"
+      ]
+    },
+    "ux_designer": {
+      "keywords": [
+        "User Research", "Usability Testing", "Wireframing", "Prototyping",
+        "Figma", "Sketch", "Adobe XD", "InVision", "Zeplin",
+        "User Journey", "Information Architecture", "Interaction Design",
+        "Visual Design", "Design Systems", "Component Library",
+        "Accessibility", "WCAG", "Responsive Design", "Mobile Design",
+        "A/B Testing", "Heat Maps", "User Personas", "User Flows",
+        "Design Thinking", "Human-Centered Design", "Agile", "Scrum",
+        "CSS", "HTML", "Motion Design", "Brand Identity"
+      ],
+      "action_verbs": [
+        "Designed", "Researched", "Created", "Developed", "Improved",
+        "Collaborated", "Delivered", "Tested", "Validated", "Iterated",
+        "Built", "Defined", "Led", "Facilitated", "Enhanced"
+      ]
+    },
+    "cybersecurity_engineer": {
+      "keywords": [
+        "Penetration Testing", "Vulnerability Assessment", "SIEM", "SOC",
+        "Incident Response", "Threat Intelligence", "Malware Analysis",
+        "Firewall", "IDS/IPS", "SAST", "DAST", "OWASP",
+        "Python", "Bash", "Kali Linux", "Metasploit", "Burp Suite",
+        "Network Security", "PKI", "Encryption", "Zero Trust",
+        "Compliance", "ISO 27001", "NIST", "SOC2", "GDPR",
+        "AWS Security", "Cloud Security", "IAM", "RBAC",
+        "Risk Assessment", "Security Audits", "Digital Forensics"
+      ],
+      "action_verbs": [
+        "Secured", "Assessed", "Identified", "Mitigated", "Implemented",
+        "Monitored", "Investigated", "Responded", "Developed", "Reduced",
+        "Prevented", "Analyzed", "Deployed", "Configured", "Hardened"
+      ]
+    },
+    "machine_learning_engineer": {
+      "keywords": [
+        "Python", "TensorFlow", "PyTorch", "Keras", "Scikit-learn",
+        "Machine Learning", "Deep Learning", "NLP", "Computer Vision",
+        "MLOps", "MLflow", "Kubeflow", "Feature Store", "Model Registry",
+        "Docker", "Kubernetes", "AWS SageMaker", "GCP Vertex AI", "Azure ML",
+        "Data Pipeline", "Airflow", "Spark", "SQL", "NoSQL",
+        "Model Deployment", "Inference Optimization", "A/B Testing",
+        "Transformers", "BERT", "GPT", "LLM", "Embedding",
+        "Statistics", "Linear Algebra", "Probability", "Git", "CI/CD"
+      ],
+      "action_verbs": [
+        "Developed", "Trained", "Deployed", "Optimized", "Implemented",
+        "Built", "Engineered", "Improved", "Reduced", "Increased",
+        "Designed", "Scaled", "Automated", "Integrated", "Researched"
+      ]
+    }
+  },
+  "skill_aliases": {
+    "js": "JavaScript",
+    "javascript": "JavaScript",
+    "ts": "TypeScript",
+    "typescript": "TypeScript",
+    "py": "Python",
+    "python": "Python",
+    "react.js": "React",
+    "reactjs": "React",
+    "react js": "React",
+    "vue": "Vue.js",
+    "vuejs": "Vue.js",
+    "vue js": "Vue.js",
+    "node": "Node.js",
+    "nodejs": "Node.js",
+    "node js": "Node.js",
+    "next": "Next.js",
+    "nextjs": "Next.js",
+    "postgres": "PostgreSQL",
+    "postgresql": "PostgreSQL",
+    "mongo": "MongoDB",
+    "mongodb": "MongoDB",
+    "k8s": "Kubernetes",
+    "kubernetes": "Kubernetes",
+    "tf": "TensorFlow",
+    "tensorflow": "TensorFlow",
+    "pytorch": "PyTorch",
+    "torch": "PyTorch",
+    "ml": "Machine Learning",
+    "dl": "Deep Learning",
+    "ai": "Artificial Intelligence",
+    "nlp": "NLP",
+    "cv": "Computer Vision",
+    "ci/cd": "CI/CD",
+    "cicd": "CI/CD",
+    "aws": "AWS",
+    "amazon web services": "AWS",
+    "gcp": "GCP",
+    "google cloud": "GCP",
+    "google cloud platform": "GCP",
+    "azure": "Azure",
+    "microsoft azure": "Azure",
+    "oop": "OOP",
+    "object oriented programming": "OOP",
+    "rest": "REST API",
+    "restful": "REST API",
+    "rest api": "REST API",
+    "git": "Git",
+    "github": "GitHub",
+    "gitlab": "GitLab",
+    "sql": "SQL",
+    "nosql": "NoSQL",
+    "html": "HTML5",
+    "html5": "HTML5",
+    "css": "CSS3",
+    "css3": "CSS3",
+    "sass": "SASS",
+    "scss": "SASS",
+    "docker": "Docker",
+    "terraform": "Terraform",
+    "ansible": "Ansible",
+    "linux": "Linux",
+    "bash": "Bash",
+    "shell": "Bash",
+    "agile": "Agile",
+    "scrum": "Scrum",
+    "ux": "UX Design",
+    "ui": "UI Design",
+    "figma": "Figma",
+    "redux": "Redux",
+    "graphql": "GraphQL"
+  },
+  "weak_verbs": {
+    "worked": "Developed / Engineered / Built",
+    "helped": "Collaborated / Contributed / Supported",
+    "did": "Executed / Completed / Delivered",
+    "made": "Created / Developed / Produced",
+    "used": "Leveraged / Utilized / Applied",
+    "got": "Achieved / Obtained / Secured",
+    "went": "Transitioned / Progressed / Advanced",
+    "handled": "Managed / Oversaw / Administered",
+    "tried": "Implemented / Executed / Piloted",
+    "fixed": "Resolved / Debugged / Remediated",
+    "changed": "Improved / Enhanced / Optimized / Refactored",
+    "ran": "Executed / Operated / Managed / Led",
+    "showed": "Demonstrated / Presented / Delivered",
+    "talked": "Communicated / Presented / Negotiated",
+    "wrote": "Developed / Authored / Documented",
+    "looked at": "Analyzed / Evaluated / Assessed",
+    "thought of": "Conceptualized / Ideated / Designed",
+    "took care of": "Managed / Administered / Oversaw",
+    "was responsible for": "Led / Managed / Owned",
+    "responsible for": "Led / Managed / Owned",
+    "assisted": "Supported / Contributed / Collaborated"
+  },
+  "strong_action_verbs": [
+    "Achieved", "Accelerated", "Architected", "Automated", "Boosted",
+    "Built", "Collaborated", "Conceptualized", "Configured", "Contributed",
+    "Created", "Delivered", "Deployed", "Designed", "Developed",
+    "Directed", "Drove", "Engineered", "Enhanced", "Established",
+    "Evaluated", "Executed", "Facilitated", "Generated", "Implemented",
+    "Improved", "Increased", "Integrated", "Launched", "Led",
+    "Managed", "Mentored", "Migrated", "Modeled", "Monitored",
+    "Optimized", "Orchestrated", "Overhauled", "Partnered", "Planned",
+    "Produced", "Reduced", "Refactored", "Researched", "Resolved",
+    "Scaled", "Secured", "Shipped", "Spearheaded", "Streamlined",
+    "Transformed", "Validated", "Visualized"
+  ]
+}

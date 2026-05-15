@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 _OCR_DIR = os.getenv(
     "OCR_PROJECT_DIR",
-    os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", "OCR_Egyptian_ID-main"),
+    os.path.join(os.path.dirname(__file__), "..", "..", "ocr_project"),
 )
 sys.path.insert(0, os.path.abspath(_OCR_DIR))
 
